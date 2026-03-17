@@ -296,6 +296,7 @@ GameObject:
   - component: {fileID: 288596828}
   - component: {fileID: 288596827}
   - component: {fileID: 288596831}
+  - component: {fileID: 288596832}
   - component: {fileID: 288596826}
   m_Layer: 0
   m_Name: Capsule
@@ -419,11 +420,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288596825}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c88019790fe7154abd7700c27f47a0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::My
+  player: {fileID: 1778929617}
+  viewAngle: 60
+--- !u!114 &288596832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288596825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7b671e282056148baf865c441ccf67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Hi
   player: {fileID: 1778929617}
   viewAngle: 60
 --- !u!1 &330585543
@@ -512,13 +527,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.15915798, y: 0.7809502, z: -0.19318695, w: 0.572245}
+  m_LocalPosition: {x: -6.09, y: 3.16, z: 0.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 28.94, y: 108, z: 1.8}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
