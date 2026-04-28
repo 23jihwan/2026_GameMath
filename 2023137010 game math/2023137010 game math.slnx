@@ -50,9 +50,9 @@
   <Project Path="UnityEngine.Purchasing.AppleMacosStub.csproj" />
   <Project Path="Unity.AI.Navigation.Updater.csproj" />
   <Project Path="UnityEngine.Purchasing.Codeless.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="UnityEditor.UI.csproj" />
   <Project Path="Unity.RenderPipelines.Universal.2D.Editor.Overrides.csproj" />
-  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Unity.Analytics.DataPrivacy.csproj" />
   <Project Path="Unity.2D.Sprite.Editor.csproj" />
   <Project Path="Unity.AI.Navigation.Editor.csproj" />
