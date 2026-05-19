@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enemy
+  - Player1
+  - Player2
+  - Target
+  - Target Ball1
+  - Target Ball2
   layers:
   - Default
   - TransparentFX
