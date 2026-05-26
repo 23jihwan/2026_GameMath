@@ -7,9 +7,18 @@
             "id": "f2be5289-cf4a-444e-90eb-d808be2661be",
             "actions": [
                 {
-                    "name": "Attack",
+                    "name": "Q",
                     "type": "Button",
                     "id": "7708c8dd-3c2a-42f4-9533-aaab035be1d8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "W",
+                    "type": "Button",
+                    "id": "ea4e8212-59ec-466e-91af-b05ed0d52f5c",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -19,12 +28,23 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "b9e9739c-588b-47c7-8699-d7ecabed78be",
-                    "path": "<Keyboard>/f",
+                    "id": "0d91821d-c4ee-4832-9420-e31d1af77b50",
+                    "path": "<Keyboard>/q",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Attack",
+                    "action": "Q",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4ff753d6-dd9b-4b86-8958-5df4d707ff4c",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "W",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
